@@ -30,6 +30,14 @@ icon: code-branch
 link: https://react.dev
 icon: code
 
+## 阿里云
+link: https://home.console.aliyun.com
+icon: server
+
+## 华为云国际版
+link: https://home.console.aliyun.com
+icon: cloud
+
 # 代理工具
 
 ## ACL4SSR规则
@@ -101,10 +109,6 @@ icon: globe
 ## 星空云
 link: https://www.starvm.cn/
 icon: star
-
-## 阿里云
-link: https://home.console.aliyun.com
-icon: server
 
 ## Colocrossing
 link: https://www.colocrossing.com
