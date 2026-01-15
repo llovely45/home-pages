@@ -26,12 +26,6 @@ export const NAV_DATA: NavData[] = [
         "desc": "IP地址",
         "link": "https://ping.lin8177.top",
         "icon": "map-marker-alt"
-      },
-      {
-        "title": "IP地址",
-        "desc": "IP地址",
-        "link": "https://ping.lin8177.top",
-        "icon": "map-marker-alt"
       }
     ]
   },

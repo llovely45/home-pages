@@ -36,6 +36,21 @@ npm run build
 ```
 构建产物位于 `docs/.vitepress/dist`。
 
+### 4. 部署到 Cloudflare Pages
+
+本项目支持部署为**纯静态网站**到 Cloudflare Pages，不消耗 Workers 额度。
+
+1. **登录 Cloudflare Dashboard**，进入 **Pages**。
+2. **连接 Git 仓库**，选择本项目。
+3. **构建设置**:
+   - **框架预设 (Framework preset)**: 选择 `None` (或者手动配置)
+   - **构建命令 (Build command)**: `npm run build`
+   - **构建输出目录 (Build output directory)**: `dist`
+4. **保存并部署**。
+
+> [!TIP]
+> 这是一个纯静态站点，Cloudflare Pages 会自动作为静态资源托管，不会调用 Functions，因此不消耗 Workers 调用额度。
+
 ## 📝 如何更新导航数据
 
 1. 打开项目根目录下的 `data.md` 文件。
