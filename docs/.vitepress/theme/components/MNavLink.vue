@@ -32,10 +32,12 @@ const svg = computed(() => {
         <div v-if="svg" class="icon" v-html="svg"></div>
         <div v-else-if="icon && typeof icon === 'string'" class="icon">
           <img
+            v-if="icon.startsWith('http') || icon.includes('/')"
             :src="withBase(icon)"
             :alt="title"
             onerror="this.parentElement.style.display='none'"
           />
+          <FontAwesomeIcon v-else :icon="['fas', icon]" />
         </div>
         <h5 v-if="title" :id="formatTitle" class="title">{{ title }}</h5>
       </div>

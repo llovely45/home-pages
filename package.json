@@ -5,11 +5,12 @@
   "description": "基于 VitePress 打造个人前端导航网站",
   "private": true,
   "scripts": {
-    "dev": "vitepress dev docs --port=8732",
-    "build": "vitepress build docs",
+    "dev": "node scripts/generate-nav-data.js && vitepress dev docs --port=8732",
+    "build": "node scripts/generate-nav-data.js && vitepress build docs",
     "preview": "vitepress preview docs --port 8730",
     "prepare": "husky install",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "postinstall": "patch-package"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.3.0",
     "medium-zoom": "^1.1.0",
+    "micromark-extension-frontmatter": "^2.0.0",
+    "patch-package": "^8.0.0",
     "postcss": "^8.5.6",
     "prettier": "^2.8.8",
     "sass": "^1.93.2",
@@ -47,10 +50,11 @@
       "prettier --write"
     ]
   },
-  "pnpm": {
-    "patchedDependencies": {
-      "vite-plugin-markdown-preview@1.1.1": "patches/vite-plugin-markdown-preview@1.1.1.patch"
-    }
-  },
-  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.5"
+  }
 }

@@ -9,6 +9,90 @@ import MNavLinks from './components/MNavLinks.vue'
 
 import './styles/index.scss'
 
+/* 引入 fontawesome 核心 */
+import { library } from '@fortawesome/fontawesome-svg-core'
+/* 引入图标组件 */
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+/* 引入你需要的具体图标 (手动添加需要的图标) */
+import {
+  faUser,
+  faHouse,
+  faMagnifyingGlass,
+  faEnvelope,
+  faRocket,
+  faShieldHalved,
+  faMagnifyingGlassLocation,
+  faChartSimple,
+  faRss,
+  faArrowRotateRight,
+  faSliders,
+  faServer,
+  faDownload,
+  faShuttleSpace,
+  faCloud,
+  faCat,
+  faCodeBranch,
+  faCode,
+  faRobot,
+  faCommentDots,
+  faBrain,
+  faWind,
+  faGlobe,
+  faStar,
+  faBuilding,
+  faCloudSun,
+  faRecycle,
+  faMicrochip,
+  faBolt,
+  faNetworkWired,
+  faGamepad,
+  faBookOpen,
+  faFilm,
+  faBook,
+  faMapMarkerAlt
+} from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
+/* 将图标添加到库中 */
+library.add(
+  faUser,
+  faHouse,
+  faMagnifyingGlass,
+  faGithub,
+  faEnvelope,
+  faRocket,
+  faShieldHalved,
+  faMagnifyingGlassLocation,
+  faChartSimple,
+  faRss,
+  faArrowRotateRight,
+  faSliders,
+  faServer,
+  faDownload,
+  faShuttleSpace,
+  faCloud,
+  faCat,
+  faCodeBranch,
+  faCode,
+  faRobot,
+  faCommentDots,
+  faBrain,
+  faWind,
+  faGlobe,
+  faStar,
+  faBuilding,
+  faCloudSun,
+  faRecycle,
+  faMicrochip,
+  faBolt,
+  faNetworkWired,
+  faGamepad,
+  faBookOpen,
+  faFilm,
+  faBook,
+  faMapMarkerAlt
+)
+
 let homePageStyle: HTMLStyleElement | undefined
 
 export default {
@@ -31,6 +115,9 @@ export default {
     app.provide('DEV', process.env.NODE_ENV === 'development')
 
     app.component('MNavLinks', MNavLinks)
+
+    // 全局注册 FontAwesomeIcon
+    app.component('FontAwesomeIcon', FontAwesomeIcon)
 
     if (typeof window !== 'undefined') {
       watch(
@@ -76,3 +163,4 @@ function updateHomePageStyle(value: boolean) {
     homePageStyle = undefined
   }
 }
+
