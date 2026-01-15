@@ -1,4 +1,4 @@
-# Linの相关
+<img width="812" height="890" alt="image" src="https://github.com/user-attachments/assets/be27d7ec-6b38-4d3b-9d22-40b3e2288e0c" /># Linの相关
 
 ## Linの博客
 link: https://blog.lin8177.top
