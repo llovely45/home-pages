@@ -54,7 +54,7 @@ desc: 华为云国际站控制台
 
 ## 图标库
 link: https://fontawesome.com.cn/v5
-icon: fa-icons
+icon: cloud
 desc: Fontawesome图标库
 
 # 代理工具

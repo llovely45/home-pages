@@ -10,13 +10,19 @@ export const NAV_DATA: NavData[] = [
     "title": "Linの相关",
     "items": [
       {
-        "title": "MyMail",
+        "title": "Linの博客",
+        "link": "https://blog.lin8177.top",
+        "icon": "fa-book-open",
+        "desc": "个人博客服务"
+      },
+      {
+        "title": "Linの邮箱",
         "link": "https://mymail.lin8177.top",
         "icon": "envelope",
         "desc": "个人邮箱服务"
       },
       {
-        "title": "Komari",
+        "title": "Linの服务器",
         "link": "https://vps.lin8177.top",
         "icon": "server",
         "desc": "服务器检测面板"
@@ -67,6 +73,12 @@ export const NAV_DATA: NavData[] = [
         "link": "https://home.console.aliyun.com",
         "icon": "cloud",
         "desc": "华为云国际站控制台"
+      },
+      {
+        "title": "图标库",
+        "link": "https://fontawesome.com.cn/v5",
+        "icon": "cloud",
+        "desc": "Fontawesome图标库"
       }
     ]
   },
