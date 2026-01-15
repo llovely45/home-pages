@@ -1,11 +1,16 @@
 # Linの相关
 
-## MyMail
+## Linの博客
+link: https://blog.lin8177.top
+icon: fa-book-open
+desc: 个人博客服务
+
+## Linの邮箱
 link: https://mymail.lin8177.top
 icon: envelope
 desc: 个人邮箱服务
 
-## Komari
+## Linの服务器
 link: https://vps.lin8177.top
 icon: server
 desc: 服务器检测面板
@@ -46,6 +51,11 @@ desc: 全球领先的云计算服务
 link: https://home.console.aliyun.com
 icon: cloud
 desc: 华为云国际站控制台
+
+## 图标库
+link: https://fontawesome.com.cn/v5
+icon: fa-icons
+desc: Fontawesome图标库
 
 # 代理工具
 
