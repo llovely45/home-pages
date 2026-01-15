@@ -38,11 +38,12 @@ function generateNavData() {
             } else if (line.startsWith('## ')) {
                 // Item Title
                 if (currentItem && currentSection) {
+                    if (!currentItem.desc) currentItem.desc = currentItem.title;
                     currentSection.items.push(currentItem);
                 }
                 currentItem = {
                     title: line.substring(3).trim(),
-                    desc: line.substring(3).trim() // Default desc to title
+                    // desc will be set later or fallback to title
                 };
             } else if (line.startsWith('link:')) {
                 if (currentItem) {
@@ -55,13 +56,17 @@ function generateNavData() {
             } else if (line.startsWith('desc:')) {
                 // Optional explicit desc support
                 if (currentItem) {
-                    currentItem.desc = line.substring(5).trim();
+                    const desc = line.substring(5).trim();
+                    if (desc) {
+                        currentItem.desc = desc;
+                    }
                 }
             }
         }
 
         // Push last item and section
         if (currentItem && currentSection) {
+            if (!currentItem.desc) currentItem.desc = currentItem.title;
             currentSection.items.push(currentItem);
         }
         if (currentSection) {

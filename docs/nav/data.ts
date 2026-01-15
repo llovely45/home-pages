@@ -11,21 +11,21 @@ export const NAV_DATA: NavData[] = [
     "items": [
       {
         "title": "MyMail",
-        "desc": "MyMail",
         "link": "https://mymail.lin8177.top",
-        "icon": "envelope"
+        "icon": "envelope",
+        "desc": "个人邮箱服务"
       },
       {
         "title": "Komari",
-        "desc": "Komari",
-        "link": "https://komari.lin8177.top",
-        "icon": "cat"
+        "link": "https://vps.lin8177.top",
+        "icon": "server",
+        "desc": "服务器检测面板"
       },
       {
         "title": "IP地址",
-        "desc": "IP地址",
         "link": "https://ping.lin8177.top",
-        "icon": "map-marker-alt"
+        "icon": "map-marker-alt",
+        "desc": "在线IP及网络检测"
       }
     ]
   },
@@ -34,27 +34,39 @@ export const NAV_DATA: NavData[] = [
     "items": [
       {
         "title": "Spaceship",
-        "desc": "Spaceship",
         "link": "https://www.spaceship.com",
-        "icon": "shuttle-space"
+        "icon": "shuttle-space",
+        "desc": "域名注册与管理"
       },
       {
         "title": "Cloudflare",
-        "desc": "Cloudflare",
         "link": "https://dash.cloudflare.com",
-        "icon": "cloud"
+        "icon": "cloud",
+        "desc": "全球云平台服务"
       },
       {
         "title": "GitHub",
-        "desc": "GitHub",
         "link": "https://github.com",
-        "icon": "code-branch"
+        "icon": "code-branch",
+        "desc": "代码托管与协作平台"
       },
       {
         "title": "React",
-        "desc": "React",
         "link": "https://react.dev",
-        "icon": "code"
+        "icon": "code",
+        "desc": "用于构建用户界面的库"
+      },
+      {
+        "title": "阿里云",
+        "link": "https://home.console.aliyun.com",
+        "icon": "server",
+        "desc": "全球领先的云计算服务"
+      },
+      {
+        "title": "华为云国际版",
+        "link": "https://home.console.aliyun.com",
+        "icon": "cloud",
+        "desc": "华为云国际站控制台"
       }
     ]
   },
@@ -63,63 +75,63 @@ export const NAV_DATA: NavData[] = [
     "items": [
       {
         "title": "ACL4SSR规则",
-        "desc": "ACL4SSR规则",
         "link": "https://github.com/ACL4SSR/ACL4SSR/tree/master",
-        "icon": "shield-halved"
+        "icon": "shield-halved",
+        "desc": "代理分流规则转换与维护"
       },
       {
         "title": "代理检测工具",
-        "desc": "代理检测工具",
         "link": "https://ipcheck.lin8177.top/liu2040",
-        "icon": "magnifying-glass-location"
+        "icon": "magnifying-glass-location",
+        "desc": "节点连通性与质量检测"
       },
       {
         "title": "代理纯净度工具",
-        "desc": "代理纯净度工具",
         "link": "https://check.lin8177.top",
-        "icon": "chart-simple"
+        "icon": "chart-simple",
+        "desc": "IP欺诈度与风险检测"
       },
       {
         "title": "优选订阅器",
-        "desc": "优选订阅器",
         "link": "https://sub.942040.xyz",
-        "icon": "rss"
+        "icon": "rss",
+        "desc": "高质量节点订阅服务"
       },
       {
         "title": "S2V订阅器",
-        "desc": "S2V订阅器",
         "link": "https://s2v.lin8177.dpdns.org",
-        "icon": "arrow-rotate-right"
+        "icon": "arrow-rotate-right",
+        "desc": "订阅格式转换工具"
       },
       {
         "title": "TCP迷之调参",
-        "desc": "TCP迷之调参",
         "link": "https://omnitt.com",
-        "icon": "sliders"
+        "icon": "sliders",
+        "desc": "网络协议参数优化"
       },
       {
         "title": "S-UI",
-        "desc": "S-UI",
         "link": "https://github.com/alireza0/s-ui",
-        "icon": "server"
+        "icon": "server",
+        "desc": "代理面板管理工具"
       },
       {
         "title": "X-UI-YG",
-        "desc": "X-UI-YG",
         "link": "https://github.com/yonggekkk/x-ui-yg",
-        "icon": "server"
+        "icon": "server",
+        "desc": "X-UI 面板修改版"
       },
       {
         "title": "一键重装",
-        "desc": "一键重装",
         "link": "https://github.com/bin456789/reinstall",
-        "icon": "download"
+        "icon": "download",
+        "desc": "Linux系统一键重装脚本"
       },
       {
         "title": "Shadowrocket去广告",
-        "desc": "Shadowrocket去广告",
         "link": "https://github.com/LOWERTOP/Shadowrocket-First",
-        "icon": "rocket"
+        "icon": "rocket",
+        "desc": "小火箭去广告规则"
       }
     ]
   },
@@ -128,21 +140,21 @@ export const NAV_DATA: NavData[] = [
     "items": [
       {
         "title": "云雾AI镜像站",
-        "desc": "云雾AI镜像站",
         "link": "https://yunwu.ai/",
-        "icon": "robot"
+        "icon": "robot",
+        "desc": "AI模型镜像服务"
       },
       {
         "title": "ChatGPT",
-        "desc": "ChatGPT",
         "link": "https://chat.openai.com",
-        "icon": "comment-dots"
+        "icon": "comment-dots",
+        "desc": "OpenAI 智能聊天机器人"
       },
       {
         "title": "Gemini",
-        "desc": "Gemini",
         "link": "https://gemini.google.com",
-        "icon": "brain"
+        "icon": "brain",
+        "desc": "Google 深度学习模型"
       }
     ]
   },
@@ -151,9 +163,9 @@ export const NAV_DATA: NavData[] = [
     "items": [
       {
         "title": "Tailwind CSS",
-        "desc": "Tailwind CSS",
         "link": "https://tailwindcss.com",
-        "icon": "wind"
+        "icon": "wind",
+        "desc": "现代化工具优先CSS框架"
       }
     ]
   },
@@ -162,63 +174,57 @@ export const NAV_DATA: NavData[] = [
     "items": [
       {
         "title": "在线warp",
-        "desc": "在线warp",
         "link": "https://replit.com/repls",
-        "icon": "globe"
+        "icon": "globe",
+        "desc": "在线生成Warp配置"
       },
       {
         "title": "星空云",
-        "desc": "星空云",
         "link": "https://www.starvm.cn/",
-        "icon": "star"
-      },
-      {
-        "title": "阿里云",
-        "desc": "阿里云",
-        "link": "https://home.console.aliyun.com",
-        "icon": "server"
+        "icon": "star",
+        "desc": "云服务器提供商"
       },
       {
         "title": "Colocrossing",
-        "desc": "Colocrossing",
         "link": "https://www.colocrossing.com",
-        "icon": "building"
+        "icon": "building",
+        "desc": "美国主机托管服务"
       },
       {
         "title": "RackNerd",
-        "desc": "RackNerd",
         "link": "https://www.racknerd.com",
-        "icon": "server"
+        "icon": "server",
+        "desc": "高性价比VPS提供商"
       },
       {
         "title": "云悠",
-        "desc": "云悠",
         "link": "https://yunyoo.cc",
-        "icon": "cloud-sun"
+        "icon": "cloud-sun",
+        "desc": "云服务解决方案"
       },
       {
         "title": "拼垃圾",
-        "desc": "拼垃圾",
         "link": "https://www.lxc.wiki",
-        "icon": "recycle"
+        "icon": "recycle",
+        "desc": "闲置资源交流与分享"
       },
       {
         "title": "Bytevirt",
-        "desc": "Bytevirt",
         "link": "https://bytevirt.com",
-        "icon": "microchip"
+        "icon": "microchip",
+        "desc": "虚拟化主机服务"
       },
       {
         "title": "Akile",
-        "desc": "Akile",
         "link": "https://akile.io",
-        "icon": "bolt"
+        "icon": "bolt",
+        "desc": "高性能云服务器"
       },
       {
         "title": "ACCK",
-        "desc": "ACCK",
         "link": "https://acck.io",
-        "icon": "network-wired"
+        "icon": "network-wired",
+        "desc": "网络服务提供商"
       }
     ]
   },
@@ -227,9 +233,9 @@ export const NAV_DATA: NavData[] = [
     "items": [
       {
         "title": "缺氧-大叔追云彩",
-        "desc": "缺氧-大叔追云彩",
         "link": "https://www.yuque.com/u25332524/ftq4u7",
-        "icon": "gamepad"
+        "icon": "gamepad",
+        "desc": "缺氧游戏详细攻略"
       }
     ]
   },
@@ -238,21 +244,21 @@ export const NAV_DATA: NavData[] = [
     "items": [
       {
         "title": "瓜老师笔记",
-        "desc": "瓜老师笔记",
         "link": "https://glsnote.org",
-        "icon": "book-open"
+        "icon": "book-open",
+        "desc": "资源分享博客"
       },
       {
         "title": "Hanime1",
-        "desc": "Hanime1",
         "link": "https://hanime1.me",
-        "icon": "film"
+        "icon": "film",
+        "desc": "在线动漫观看"
       },
       {
         "title": "疯情阅读",
-        "desc": "疯情阅读",
         "link": "https://aabook.xyz",
-        "icon": "book"
+        "icon": "book",
+        "desc": "在线小说阅读"
       }
     ]
   }
