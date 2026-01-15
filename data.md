@@ -187,6 +187,13 @@ link: https://www.yuque.com/u25332524/ftq4u7
 icon: gamepad
 desc: 缺氧游戏详细攻略
 
+# 软件推荐
+
+## 右键菜单管理
+link: https://github.com/BluePointLilac/ContextMenuManager
+icon: fa-cog
+desc: 管理你的Windows的右键菜单
+
 # 18+
 
 ## 瓜老师笔记
