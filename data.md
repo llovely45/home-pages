@@ -48,7 +48,7 @@ icon: server
 desc: 全球领先的云计算服务
 
 ## 华为云国际版
-link: https://home.console.aliyun.com
+link: https://console-intl.huaweicloud.com/dns
 icon: cloud
 desc: 华为云国际站控制台
 
