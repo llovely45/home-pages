@@ -191,7 +191,7 @@ desc: 缺氧游戏详细攻略
 
 ## 右键菜单管理
 link: https://github.com/BluePointLilac/ContextMenuManager
-icon: settings
+icon: 
 desc: 管理你的Windows的右键菜单
 
 # 18+
