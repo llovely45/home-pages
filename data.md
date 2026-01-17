@@ -52,17 +52,27 @@ link: https://console-intl.huaweicloud.com/dns
 icon: cloud
 desc: 华为云国际站控制台
 
-## 图标库
-link: https://fontawesome.com.cn/v5
-icon: cloud
-desc: Fontawesome图标库
-
 # 代理工具
 
 ## 中科大学测速站
 link: https://test.ustc.edu.cn
 icon: rocket
 desc: 中国科学技术大学测速网站
+
+## Fast测速
+link: https://fast.com
+icon: rocket
+desc: 奈飞快乐表
+
+## 谷歌测速
+link: https://fiber.google.com/speedtest
+icon: rocket
+desc: Google&Speedtest
+
+## Speedtest
+link: https://www.speedtest.net
+icon: rocket
+desc: Speedtest官网
 
 ## ACL4SSR规则
 link: https://github.com/ACL4SSR/ACL4SSR/tree/master
@@ -137,6 +147,11 @@ desc: Google 深度学习模型
 link: https://tailwindcss.com
 icon: wind
 desc: 现代化工具优先CSS框架
+
+## 图标库
+link: https://fontawesome.com.cn/v5
+icon: cloud
+desc: Fontawesome图标库
 
 # 云服务
 
