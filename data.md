@@ -59,6 +59,11 @@ desc: Fontawesome图标库
 
 # 代理工具
 
+## 中科大学测速站
+link: https://test.ustc.edu.cn
+icon: rocket
+desc: 中国科学技术大学测速网站
+
 ## ACL4SSR规则
 link: https://github.com/ACL4SSR/ACL4SSR/tree/master
 icon: shield-halved
