@@ -12,6 +12,10 @@ hero:
   actions:
     - text: Linの博客
       link: https://blog.lin8177.top
+    - text: Linの影视
+      link: https://tv.lin8177.top
+    - text: Linの小鸡
+      link: https://vps.lin8177.top
     - text: 常用网站
       link: /nav/
       theme: alt
