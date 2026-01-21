@@ -5,15 +5,20 @@ link: https://blog.lin8177.top
 icon: fa-book-open
 desc: 个人博客服务
 
-## Linの邮箱
-link: https://mymail.lin8177.top
-icon: envelope
-desc: 个人邮箱服务
+## Linの影视
+link: https://tv.lin8177.top
+icon: tv
+desc: 个人影视服务
 
 ## Linの服务器
 link: https://vps.lin8177.top
 icon: server
 desc: 服务器检测面板
+
+## Linの邮箱
+link: https://mymail.lin8177.top
+icon: envelope
+desc: 个人邮箱服务
 
 ## IP地址
 link: https://ping.lin8177.top
