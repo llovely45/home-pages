@@ -16,6 +16,8 @@ hero:
       link: https://tv.lin8177.top
     - text: Linの小鸡
       link: https://vps.lin8177.top
+    - text: Linの服务
+      link: https://account.lin8177.top
     - text: 常用网站
       link: /nav/
       theme: alt
